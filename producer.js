@@ -10,7 +10,7 @@ const server = Hapi.Server({
     port: 8000
 });
 
-
+console.log("helloworld");
 server.route({
     method: 'GET',
     path: '/api/producer/approvedbeat',
